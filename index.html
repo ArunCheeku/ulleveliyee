@@ -1,0 +1,1074 @@
+<!DOCTYPE html>
+
+<head>
+<title>உள்ளே வெளியே</title>
+
+<style>
+
+
+.basecarsec{
+    display: flex;
+}   
+    
+    
+.basecardbutton:hover,
+.Player1:hover,
+.Player1:hover{
+    cursor: pointer;
+}
+.basecardbutton{
+    background-image: url(Leaf/Back.png);
+    background-size: cover;
+    flex: 1;
+    height: 220px;
+    width: 150px;
+    
+}
+.Player1{
+    background-image: url(Leaf/player11.png);
+    background-size: cover;
+    flex: 1;
+    height: 220px;
+    width: 150px;
+}
+.Player2{
+    background-image: url(Leaf/player22.png);
+    background-size: cover;
+    flex: 1;
+    height: 220px;
+    width: 150px;
+}
+
+.ulle{
+    
+    height: 100px;
+    font-size: 50px;
+    margin-left: 380px;
+    margin-right: 380px;
+    align-items: center;
+    display: flex;
+}
+
+.gty{
+background-image: url(Background.jpg);
+background-size: cover;
+}
+
+</style>
+
+<body class="gty">
+    
+<p class="ulle">
+    <b>உள்ளே வெளியே</b>
+</p>
+
+<div class="Basecardsec">
+
+<button  class="basecardbutton" onclick="
+
+    const basecard = Math.random();
+    console.log(basecard);
+    
+    
+
+    
+    if(basecard >=0 && basecard < 1/52)
+    {
+        poss = `A` 
+        sym=`Heart`   
+        
+    }
+    else if(basecard >= 1/52 && basecard < 2/52)
+    {
+        poss = `K` 
+        sym=`Daimond`   
+        
+    }
+    else if(basecard >= 2/52 && basecard < 3/52)
+    {
+        poss = `2` 
+        sym=`Heart` 
+        
+    }
+    else if(basecard >= 3/52 && basecard < 4/52)
+    {
+        poss = `Q` 
+        sym=`Daimond`   
+        
+    }
+    else if(basecard >= 4/52 && basecard < 5/52)
+    {
+        poss = `A` 
+        sym=`Leaf`    
+        
+    }
+    else if(basecard >= 5/52 && basecard < 6/52)
+    {
+        poss = `3` 
+        sym=`Heart`  
+        
+    }
+    else if(basecard >= 6/52 && basecard < 7/52)
+    {
+        poss = `K` 
+        sym=`Clover`   
+        
+    }
+    else if(basecard >= 7/52 && basecard < 8/52)
+    {
+        poss = `4` 
+        sym=`Heart`  
+        
+    }
+    else if(basecard >= 8/52 && basecard < 9/52)
+    {
+        poss = `5` 
+        sym=`Heart`  
+        
+    }
+    else if(basecard >= 9/52 && basecard < 10/52)
+    {
+        poss = `J` 
+        sym=`Daimond`    
+        
+    }
+    else if(basecard >= 10/52 && basecard < 11/52)
+    {
+        poss = `2` 
+        sym=`Leaf` 
+        
+    }
+    else if(basecard >= 11/52 && basecard < 12/52)
+    {
+        poss = `Q` 
+        sym=`Clover`   
+        
+    }
+    else if(basecard >= 12/52 && basecard < 13/52)
+    {
+        poss = `10` 
+        sym=`Daimond`    
+        
+    }
+    else if(basecard >= 13/52 && basecard < 14/52)
+    {
+        poss = `6` 
+        sym=`Heart`  
+        
+    }
+    else if(basecard >= 14/52 && basecard < 15/52)
+    {
+        poss = `3` 
+        sym=`Leaf` 
+        
+    }
+    else if(basecard >= 15/52 && basecard < 16/52)
+    {
+        poss = `9` 
+        sym=`Daimond`    
+        
+    }
+    else if(basecard >= 16/52 && basecard < 17/52)
+    {
+        poss = `J` 
+        sym=`Clover`   
+        
+    }
+    else if(basecard >= 17/52 && basecard < 18/52)
+    {
+        poss = `8` 
+        sym=`Daimond`    
+        
+    }
+    else if(basecard >= 18/52 && basecard < 19/52)
+    {
+        poss = `7` 
+        sym=`Heart` 
+        
+    }
+    else if(basecard >= 19/52 && basecard < 20/52)
+    {
+        poss = `10` 
+        sym=`Clover`   
+        
+    }
+    else if(basecard >= 20/52 && basecard < 21/52)
+    {
+        poss = `4` 
+        sym=`Leaf`
+        
+    }
+    else if(basecard >= 21/52 && basecard < 22/52)
+    {
+        poss = `K` 
+        sym=`Heart`  
+        
+    }
+    else if(basecard >= 22/52 && basecard < 23/52)
+    {
+        poss = `9` 
+        sym=`Clover`    
+        
+    }
+    else if(basecard >= 23/52 && basecard < 24/52)
+    {
+        poss = `7` 
+        sym=`Daimond`    
+        
+    }
+    else if(basecard >= 24/52 && basecard < 25/52)
+    {
+        poss = `8` 
+        sym=`Heart`  
+        
+    }
+    else if(basecard >= 25/52 && basecard < 26/52)
+    {
+        poss = `6` 
+        sym=`Daimond`    
+        
+    }
+    else if(basecard >= 26/52 && basecard < 27/52)
+    {
+        poss = `8` 
+        sym=`Clover`   
+        
+    }
+    else if(basecard >= 27/52 && basecard < 28/52)
+    {
+        poss = `Q` 
+        sym=`Heart`  
+        
+    }
+    else if(basecard >= 28/52 && basecard < 29/52)
+    {
+        poss = `5` 
+        sym=`Leaf`
+        
+    }
+    else if(basecard >= 29/52 && basecard < 30/52)
+    {
+        poss = `7` 
+        sym=`Leaf`
+        
+    }
+    else if(basecard >= 30/52 && basecard < 31/52)
+    {
+        poss = `9` 
+        sym=`Heart`  
+        
+    }
+    else if(basecard >= 31/52 && basecard < 32/52)
+    {
+        poss = `6` 
+        sym=`Leaf` 
+        
+    }
+    else if(basecard >= 32/52 && basecard < 33/52)
+    {
+        poss = `K` 
+        sym=`Leaf`
+        
+    }
+    else if(basecard >= 33/52 && basecard < 34/52)
+    {
+        poss = `7` 
+        sym=`Clover`    
+        
+    }
+    else if(basecard >= 34/52 && basecard < 35/52)
+    {
+        poss = `10` 
+        sym=`Heart`  
+        
+    }
+    else if(basecard >= 35/52 && basecard < 36/52)
+    {
+        poss = `8` 
+        sym=`Leaf` 
+        
+    }
+    else if(basecard >= 36/52 && basecard < 37/52)
+    {
+        poss = `A` 
+        sym=`Daimond`   
+        
+    }
+    else if(basecard >= 37/52 && basecard < 38/52)
+    {
+        poss = `6` 
+        sym=`Clover`   
+        
+    }
+    else if(basecard >= 38/52 && basecard < 39/52)
+    {
+        poss = `9` 
+        sym=`Leaf` 
+        
+    }
+    else if(basecard >= 39/52 && basecard < 40/52)
+    {
+        poss = `J` 
+        sym=`Heart`  
+        
+    }
+    else if(basecard >= 40/52 && basecard < 41/52)
+    {
+        poss = `2` 
+        sym=`Daimond`   
+        
+    }
+    else if(basecard >= 41/52 && basecard < 42/52)
+    {
+        poss = `10` 
+        sym=`Leaf` 
+        
+    }
+    else if(basecard >= 42/52 && basecard < 43/52)
+    {
+        poss = `5` 
+        sym=`Clover`    
+        
+    }
+    else if(basecard >= 43/52 && basecard < 44/52)
+    {
+        poss = `3` 
+        sym=`Daimond`    
+        
+    }
+    else if(basecard >= 44/52 && basecard < 45/52)
+    {
+        poss = `4` 
+        sym=`Clover`    
+        
+    }
+    else if(basecard >= 45/52 && basecard < 46/52)
+    {
+        poss = `J` 
+        sym=`Leaf` 
+        
+    }
+    else if(basecard >= 46/52 && basecard < 47/52)
+    {
+        poss = `4` 
+        sym=`Daimond`    
+        
+    }
+    else if(basecard >= 47/52 && basecard < 48/52)
+    {
+        poss = `3` 
+        sym=`Clover`   
+        
+    }
+    else if(basecard >= 48/52 && basecard < 49/52)
+    {
+        poss = `2` 
+        sym=`Clover`   
+        
+    }
+    else if(basecard >= 49/52 && basecard < 50/52)
+    {
+        poss = `Q` 
+        sym=`Leaf` 
+        
+    }
+    else if(basecard >= 50/52 && basecard < 51/52)
+    {
+        poss = `5` 
+        sym=`Daimond`    
+        
+    }
+    else if(basecard >= 51/52 && basecard <= 1)
+    {
+        poss = `A` 
+        sym=`Clover`   
+        
+    }
+    console.log(`BaseCard`+poss+sym);
+
+    
+
+
+    "></button>
+    <p>Base Card</p>
+
+    
+    
+
+    <button  class="Player1" onclick="
+
+    const player1 = Math.random();
+    console.log(player1);
+    
+    let poss1 = '';
+    let sym1 = '';
+
+    
+    if(player1 >=0 && player1 < 1/52)
+    {
+        poss1 = `A` 
+        sym1=`Heart`   
+        
+    }
+    else if(player1 >= 1/52 && player1 < 2/52)
+    {
+        poss1 = `K` 
+        sym1=`Daimond`   
+        
+    }
+    else if(player1 >= 2/52 && player1 < 3/52)
+    {
+        poss1 = `2` 
+        sym1=`Heart` 
+        
+    }
+    else if(player1 >= 3/52 && player1 < 4/52)
+    {
+        poss1 = `Q` 
+        sym1=`Daimond`   
+        
+    }
+    else if(player1 >= 4/52 && player1 < 5/52)
+    {
+        poss1 = `A` 
+        sym1=`Leaf`    
+        
+    }
+    else if(player1 >= 5/52 && player1 < 6/52)
+    {
+        poss1 = `3` 
+        sym1=`Heart`  
+        
+    }
+    else if(player1 >= 6/52 && player1 < 7/52)
+    {
+        poss1 = `K` 
+        sym1=`Clover`   
+        
+    }
+    else if(player1 >= 7/52 && player1 < 8/52)
+    {
+        poss1 = `4` 
+        sym1=`Heart`  
+        
+    }
+    else if(player1 >= 8/52 && player1 < 9/52)
+    {
+        poss1 = `5` 
+        sym1=`Heart`  
+        
+    }
+    else if(player1 >= 9/52 && player1 < 10/52)
+    {
+        poss1 = `J` 
+        sym1=`Daimond`    
+        
+    }
+    else if(player1 >= 10/52 && player1 < 11/52)
+    {
+        poss1 = `2` 
+        sym1=`Leaf` 
+        
+    }
+    else if(player1 >= 11/52 && player1 < 12/52)
+    {
+        poss1 = `Q` 
+        sym1=`Clover`   
+        
+    }
+    else if(player1 >= 12/52 && player1 < 13/52)
+    {
+        poss1 = `10` 
+        sym1=`Daimond`    
+        
+    }
+    else if(player1 >= 13/52 && player1 < 14/52)
+    {
+        poss1 = `6` 
+        sym1=`Heart`  
+        
+    }
+    else if(player1 >= 14/52 && player1 < 15/52)
+    {
+        poss1 = `3` 
+        sym1=`Leaf` 
+        
+    }
+    else if(player1 >= 15/52 && player1 < 16/52)
+    {
+        poss1 = `9` 
+        sym1=`Daimond`    
+        
+    }
+    else if(player1 >= 16/52 && player1 < 17/52)
+    {
+        poss1 = `J` 
+        sym1=`Clover`   
+        
+    }
+    else if(player1 >= 17/52 && player1 < 18/52)
+    {
+        poss1 = `8` 
+        sym1=`Daimond`    
+        
+    }
+    else if(player1 >= 18/52 && player1 < 19/52)
+    {
+        poss1 = `7` 
+        sym1=`Heart` 
+        
+    }
+    else if(player1 >= 19/52 && player1 < 20/52)
+    {
+        poss1 = `10` 
+        sym1=`Clover`   
+        
+    }
+    else if(player1 >= 20/52 && player1 < 21/52)
+    {
+        poss1 = `4` 
+        sym1=`Leaf`
+        
+    }
+    else if(player1 >= 21/52 && player1 < 22/52)
+    {
+        poss1 = `K` 
+        sym1=`Heart`  
+        
+    }
+    else if(player1 >= 22/52 && player1 < 23/52)
+    {
+        poss1 = `9` 
+        sym1=`Clover`    
+        
+    }
+    else if(player1 >= 23/52 && player1 < 24/52)
+    {
+        poss1 = `7` 
+        sym1=`Daimond`    
+        
+    }
+    else if(player1 >= 24/52 && player1 < 25/52)
+    {
+        poss1 = `8` 
+        sym1=`Heart`  
+        
+    }
+    else if(player1 >= 25/52 && player1 < 26/52)
+    {
+        poss1 = `6` 
+        sym1=`Daimond`    
+        
+    }
+    else if(player1 >= 26/52 && player1 < 27/52)
+    {
+        poss1 = `8` 
+        sym1=`Clover`   
+        
+    }
+    else if(player1 >= 27/52 && player1 < 28/52)
+    {
+        poss1 = `Q` 
+        sym1=`Heart`  
+        
+    }
+    else if(player1 >= 28/52 && player1 < 29/52)
+    {
+        poss1 = `5` 
+        sym1=`Leaf`
+        
+    }
+    else if(player1 >= 29/52 && player1 < 30/52)
+    {
+        poss1 = `7` 
+        sym1=`Leaf`
+        
+    }
+    else if(player1 >= 30/52 && player1 < 31/52)
+    {
+        poss1 = `9` 
+        sym1=`Heart`  
+        
+    }
+    else if(player1 >= 31/52 && player1 < 32/52)
+    {
+        poss1 = `6` 
+        sym1=`Leaf` 
+        
+    }
+    else if(player1 >= 32/52 && player1 < 33/52)
+    {
+        poss1 = `K` 
+        sym1=`Leaf`
+        
+    }
+    else if(player1 >= 33/52 && player1 < 34/52)
+    {
+        poss1 = `7` 
+        sym1=`Clover`    
+        
+    }
+    else if(player1 >= 34/52 && player1 < 35/52)
+    {
+        poss1 = `10` 
+        sym1=`Heart`  
+        
+    }
+    else if(player1 >= 35/52 && player1 < 36/52)
+    {
+        poss1 = `8` 
+        sym1=`Leaf` 
+        
+    }
+    else if(player1 >= 36/52 && player1 < 37/52)
+    {
+        poss1 = `A` 
+        sym1=`Daimond`   
+        
+    }
+    else if(player1 >= 37/52 && player1 < 38/52)
+    {
+        poss1 = `6` 
+        sym1=`Clover`   
+        
+    }
+    else if(player1 >= 38/52 && player1 < 39/52)
+    {
+        poss1 = `9` 
+        sym1=`Leaf` 
+        
+    }
+    else if(player1 >= 39/52 && player1 < 40/52)
+    {
+        poss1 = `J` 
+        sym1=`Heart`  
+        
+    }
+    else if(player1 >= 40/52 && player1 < 41/52)
+    {
+        poss1 = `2` 
+        sym1=`Daimond`   
+        
+    }
+    else if(player1 >= 41/52 && player1 < 42/52)
+    {
+        poss1 = `10` 
+        sym1=`Leaf` 
+        
+    }
+    else if(player1 >= 42/52 && player1 < 43/52)
+    {
+        poss1 = `5` 
+        sym1=`Clover`    
+        
+    }
+    else if(player1 >= 43/52 && player1 < 44/52)
+    {
+        poss1 = `3` 
+        sym1=`Daimond`    
+        
+    }
+    else if(player1 >= 44/52 && player1 < 45/52)
+    {
+        poss1 = `4` 
+        sym1=`Clover`    
+        
+    }
+    else if(player1 >= 45/52 && player1 < 46/52)
+    {
+        poss1 = `J` 
+        sym1=`Leaf` 
+        
+    }
+    else if(player1 >= 46/52 && player1 < 47/52)
+    {
+        poss1 = `4` 
+        sym1=`Daimond`    
+        
+    }
+    else if(player1 >= 47/52 && player1 < 48/52)
+    {
+        poss1 = `3` 
+        sym1=`Clover`   
+        
+    }
+    else if(player1 >= 48/52 && player1 < 49/52)
+    {
+        poss1 = `2` 
+        sym1=`Clover`   
+        
+    }
+    else if(player1 >= 49/52 && player1 < 50/52)
+    {
+        poss1 = `Q` 
+        sym1=`Leaf` 
+        
+    }
+    else if(player1 >= 50/52 && player1 < 51/52)
+    {
+        poss1 = `5` 
+        sym1=`Daimond`    
+        
+    }
+    else if(player1 >= 51/52 && player1 <= 1)
+    {
+        poss1 = `A` 
+        sym1=`Clover`   
+        
+    }
+    console.log(`Player 1` + poss1+sym1);
+
+    if (poss === poss1){
+    alert(`Player 1 Matched`);
+    }
+    else if (poss !== poss1){
+    alert(`Player 2 next try`);
+    }
+
+    ">Player 1</button>
+
+
+<button  class="Player2" onclick="
+
+    const player2 = Math.random();
+    console.log(player2);
+    
+    let poss2 = '';
+    let sym2 = '';
+
+    
+    if(player2 >=0 && player2 < 1/52)
+    {
+        poss2 = `A` 
+        sym2=`Heart`   
+        
+    }
+    else if(player2 >= 1/52 && player2 < 2/52)
+    {
+        poss2 = `K` 
+        sym2=`Daimond`   
+        
+    }
+    else if(player2 >= 2/52 && player2 < 3/52)
+    {
+        poss2 = `2` 
+        sym2=`Heart` 
+        
+    }
+    else if(player2 >= 3/52 && player2 < 4/52)
+    {
+        poss2 = `Q` 
+        sym2=`Daimond`   
+        
+    }
+    else if(player2 >= 4/52 && player2 < 5/52)
+    {
+        poss2 = `A` 
+        sym2=`Leaf`    
+        
+    }
+    else if(player2 >= 5/52 && player2 < 6/52)
+    {
+        poss2 = `3` 
+        sym2=`Heart`  
+        
+    }
+    else if(player2 >= 6/52 && player2 < 7/52)
+    {
+        poss2 = `K` 
+        sym2=`Clover`   
+        
+    }
+    else if(player2 >= 7/52 && player2 < 8/52)
+    {
+        poss2 = `4` 
+        sym2=`Heart`  
+        
+    }
+    else if(player2 >= 8/52 && player2 < 9/52)
+    {
+        poss2 = `5` 
+        sym2=`Heart`  
+        
+    }
+    else if(player2 >= 9/52 && player2 < 10/52)
+    {
+        poss2 = `J` 
+        sym2=`Daimond`    
+        
+    }
+    else if(player2 >= 10/52 && player2 < 11/52)
+    {
+        poss2 = `2` 
+        sym2=`Leaf` 
+        
+    }
+    else if(player2 >= 11/52 && player2 < 12/52)
+    {
+        poss2 = `Q` 
+        sym2=`Clover`   
+        
+    }
+    else if(player2 >= 12/52 && player2 < 13/52)
+    {
+        poss2 = `10` 
+        sym2=`Daimond`    
+        
+    }
+    else if(player2 >= 13/52 && player2 < 14/52)
+    {
+        poss2 = `6` 
+        sym2=`Heart`  
+        
+    }
+    else if(player2 >= 14/52 && player2 < 15/52)
+    {
+        poss2 = `3` 
+        sym2=`Leaf` 
+        
+    }
+    else if(player2 >= 15/52 && player2 < 16/52)
+    {
+        poss2 = `9` 
+        sym2=`Daimond`    
+        
+    }
+    else if(player2 >= 16/52 && player2 < 17/52)
+    {
+        poss2 = `J` 
+        sym2=`Clover`   
+        
+    }
+    else if(player2 >= 17/52 && player2 < 18/52)
+    {
+        poss2 = `8` 
+        sym2=`Daimond`    
+        
+    }
+    else if(player2 >= 18/52 && player2 < 19/52)
+    {
+        poss2 = `7` 
+        sym2=`Heart` 
+        
+    }
+    else if(player2 >= 19/52 && player2 < 20/52)
+    {
+        poss2 = `10` 
+        sym2=`Clover`   
+        
+    }
+    else if(player2 >= 20/52 && player2 < 21/52)
+    {
+        poss2 = `4` 
+        sym2=`Leaf`
+        
+    }
+    else if(player2 >= 21/52 && player2 < 22/52)
+    {
+        poss2 = `K` 
+        sym2=`Heart`  
+        
+    }
+    else if(player2 >= 22/52 && player2 < 23/52)
+    {
+        poss2 = `9` 
+        sym2=`Clover`    
+        
+    }
+    else if(player2 >= 23/52 && player2 < 24/52)
+    {
+        poss2 = `7` 
+        sym2=`Daimond`    
+        
+    }
+    else if(player2 >= 24/52 && player2 < 25/52)
+    {
+        poss2 = `8` 
+        sym2=`Heart`  
+        
+    }
+    else if(player2 >= 25/52 && player2 < 26/52)
+    {
+        poss2 = `6` 
+        sym2=`Daimond`    
+        
+    }
+    else if(player2 >= 26/52 && player2 < 27/52)
+    {
+        poss2 = `8` 
+        sym2=`Clover`   
+        
+    }
+    else if(player2 >= 27/52 && player2 < 28/52)
+    {
+        poss2 = `Q` 
+        sym2=`Heart`  
+        
+    }
+    else if(player2 >= 28/52 && player2 < 29/52)
+    {
+        poss2 = `5` 
+        sym2=`Leaf`
+        
+    }
+    else if(player2 >= 29/52 && player2 < 30/52)
+    {
+        poss2 = `7` 
+        sym2=`Leaf`
+        
+    }
+    else if(player2 >= 30/52 && player2 < 31/52)
+    {
+        poss2 = `9` 
+        sym2=`Heart`  
+        
+    }
+    else if(player2 >= 31/52 && player2 < 32/52)
+    {
+        poss2 = `6` 
+        sym2=`Leaf` 
+        
+    }
+    else if(player2 >= 32/52 && player2 < 33/52)
+    {
+        poss2 = `K` 
+        sym2=`Leaf`
+        
+    }
+    else if(player2 >= 33/52 && player2 < 34/52)
+    {
+        poss2 = `7` 
+        sym2=`Clover`    
+        
+    }
+    else if(player2 >= 34/52 && player2 < 35/52)
+    {
+        poss2 = `10` 
+        sym2=`Heart`  
+        
+    }
+    else if(player2 >= 35/52 && player2 < 36/52)
+    {
+        poss2 = `8` 
+        sym2=`Leaf` 
+        
+    }
+    else if(player2 >= 36/52 && player2 < 37/52)
+    {
+        poss2 = `A` 
+        sym2=`Daimond`   
+        
+    }
+    else if(player2 >= 37/52 && player2 < 38/52)
+    {
+        poss2 = `6` 
+        sym2=`Clover`   
+        
+    }
+    else if(player2 >= 38/52 && player2 < 39/52)
+    {
+        poss2 = `9` 
+        sym2=`Leaf` 
+        
+    }
+    else if(player2 >= 39/52 && player2 < 40/52)
+    {
+        poss2 = `J` 
+        sym2=`Heart`  
+        
+    }
+    else if(player2 >= 40/52 && player2 < 41/52)
+    {
+        poss2 = `2` 
+        sym2=`Daimond`   
+        
+    }
+    else if(player2 >= 41/52 && player2 < 42/52)
+    {
+        poss2 = `10` 
+        sym2=`Leaf` 
+        
+    }
+    else if(player2 >= 42/52 && player2 < 43/52)
+    {
+        poss2 = `5` 
+        sym2=`Clover`    
+        
+    }
+    else if(player2 >= 43/52 && player2 < 44/52)
+    {
+        poss2 = `3` 
+        sym2=`Daimond`    
+        
+    }
+    else if(player2 >= 44/52 && player2 < 45/52)
+    {
+        poss2 = `4` 
+        sym2=`Clover`    
+        
+    }
+    else if(player2 >= 45/52 && player2 < 46/52)
+    {
+        poss2 = `J` 
+        sym2=`Leaf` 
+        
+    }
+    else if(player2 >= 46/52 && player2 < 47/52)
+    {
+        poss2 = `4` 
+        sym2=`Daimond`    
+        
+    }
+    else if(player2 >= 47/52 && player2 < 48/52)
+    {
+        poss2 = `3` 
+        sym2=`Clover`   
+        
+    }
+    else if(player2 >= 48/52 && player2 < 49/52)
+    {
+        poss2 = `2` 
+        sym2=`Clover`   
+        
+    }
+    else if(player2 >= 49/52 && player2 < 50/52)
+    {
+        poss2 = `Q` 
+        sym2=`Leaf` 
+        
+    }
+    else if(player2 >= 50/52 && player2 < 51/52)
+    {
+        poss2 = `5` 
+        sym2=`Daimond`    
+        
+    }
+    else if(player2 >= 51/52 && player2 <= 1)
+    {
+        poss2 = `A` 
+        sym2=`Clover`   
+        
+    }
+
+    console.log(`Player 2` + poss2+sym2);
+
+    if (poss === poss2)
+    {
+    alert(`Player 2 Matched`);
+    }
+    else if (poss !== poss2){
+        alert(`Player 1 next try`);
+    }
+
+    ">Player 2</button>
+    
+
+</div> 
+<script>
+let poss = ``;
+    let sym = ``;
+</script>
+
+</body>
+
+</head>
